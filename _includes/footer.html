@@ -1,0 +1,23 @@
+  <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; {{ site.copyright }} {{ 'now' | date: "%Y" }}</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        {% for network in site.footer[1].social %}
+                        <li><a href="{{ network.url }}"><i class="fab fa-{{ network.title }}"></i></a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                    {% for menu in site.footer[0].menus %}
+                        <li><a href="{{menu.url}}">{{menu.title}}</a></li>
+                    {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>

@@ -1,0 +1,165 @@
+url: https://folio.itechf.com
+baseurl: '/agency-jekyll-theme/'
+
+# Site settings
+title: Modern Web solutions for your Business
+copyright: Itechf
+logo: img/logos/itechf-logo-white-trs-site.png
+logo-alt: Itechf Portfolio Website Logo
+favicon: img/logos/itechf-favicon.png
+email: itechf@hotmail.com
+description: We are providing Responsive Portfolio, e-commerce and Blog website designing, Digital Marketing, Domain, Email Service, SEO service & many more.
+
+seo:
+  - property: title
+    content: Modern Web solutions for your Business
+  - property: og:site_name
+    content: Itechf Portfolio
+  - property: og:title
+    content: Modern Web solutions for your Business
+  - property: og:type
+    content: portfolio
+  - property: description
+    content: We are providing Responsive Portfolio, e-commerce and Blog website designing, Digital Marketing, Domain, Email Service, SEO service & many more.
+  - property: og:url
+    content: https://folio.itechf.com
+  - property: og:image
+    content: img/itechf-folio.png
+  - property: og:image:type
+    content: image/jpeg
+  - property: og:image:width
+    content: 600
+  - property: og:image:height
+    content: 400
+  - property: og:locale
+    content: en_US
+  - property: og:locale:alternate
+    content: en_IN
+  - property: twitter:card
+    content: We are providing Responsive Portfolio, e-commerce and Blog website designing, Digital Marketing, Domain, Email Service, SEO service & many more.
+  - property: twitter:site
+    content: '@Itechf'
+  - property: twitter:url
+    content: https://folio.itechf.com
+  - property: twitter:title
+    content: Modern Web solutions for your Business
+  - property: twitter:desctription
+    content: We are providing Responsive Portfolio, e-commerce and Blog website designing, Digital Marketing, Domain, Email Service, SEO service & many more.
+  - property: twitter:image
+    content: img/itechf-folio.png
+  - property: datePublished
+    content: 2021-07-23T08:00:00+530
+
+#Home Page Details
+home:
+  title: Welcome To Itechf!
+  desc: Modern Web solutions for your Business
+  btnTxt: More Services
+
+#Portfolio
+portfolio:
+  title: Portfolio
+  desc: Recent website design samples.
+
+#Services we offer
+services:
+- title: Services
+  desc: Our Web Development Services.
+  list:
+    - title: WEBSITE DEVELOPMENT AND eCOMMERCE
+      desc: We design stunning websites which makes a first impression on your visitors and prospective customers.
+      icon: fa fa-shopping-cart
+    - title: SOCIAL MEDIA MANAGEMENT
+      desc: Stay ahead of the curve by having an active presence on Social Media. you just need to sit back and relax. we do the rest.
+      icon: fas fa-users
+    - title: SMALL BUSINESS WEBSITE
+      desc: When you just launch a startup, developing a website may seem to be an extravagance. Let us tell you, a website is an integral part of your business in today’s digital age.
+      icon: fas fa-business-time
+    - title: SEO
+      desc: We paint the town red with and let everyone know that your business has arrived for the mainstream
+      icon: far fa-lightbulb
+    - title: DIGITAL ADVERTISING
+      desc: Your future customers are watching you tube video or sharing a meme right now.We will adcertise your business right in front of them
+      icon: fas fa-ad
+    - title: APP DEVELOPMENT
+      desc: Looking for Mobile application development we build native Android and iOS mobile apps . Bring your ideas to us and.
+      icon: fas fa-mobile-alt
+      
+
+# Team names, titles and social links
+teams:
+  - title: Our Amazing Team
+    desc: At Itechf, we specialize in web development and take it as an integral part of our digital marketing services. From development to marketing your site, we follow a systematic process in order to build and maintain a site that delivers beyond expectations. Have a look at our process.
+    footer: We start with a brief session with our clients where we develop an understanding of their business and web development needs. Developing an in-depth understanding of a client's unique situation helps us put together a plan of action that appeals to the target audience. Without this insight the campaign's objectives cannot be successfully achieved.
+
+people:
+- name: Nazir Hussain
+  pic: nazir.png
+  imgAlt: Nazir Hussain Profile Picture
+  position: Lead Designer
+  social:
+    - title: quora
+      url: https://www.quora.com
+    - title: facebook
+      url: https://www.facebook.com/sagar.hussain.5680
+    
+- name: Iffat Zia Khan
+  pic: Iffat Zia Khan.png
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: https://www.facebook.com/IffatZia.Khan
+  
+- name: Amita Srivastav
+  pic: Amita Srivastav.png
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+
+
+# Header Menu
+header:
+  - menus:
+    - title: Services
+      url: #services
+    - title: Portfolio
+      url: #portfolio
+    - title: About
+      url: #about
+    - title: Team
+      url: #team
+    - title: Contact
+      url: #contact
+  - social:
+    - title: facebook
+      url: https://www.facebook.com/itechfP
+
+# Footer Menu
+footer:
+  - menus:
+    - title: Privacy Policy
+      url: https://itechf.com/privacy-policy/
+    - title: Terms of Use
+      url: https://itechf.com/terms-and-conditions/
+  - social:
+    - title: twitter
+      url: https://twitter.com/Itechf1
+    - title: facebook
+      url: https://www.facebook.com/itechfP
+    - title: github
+      url: https://github.com/itechf-s
+
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Jamia Nagar New Delhi
+  - line: Delhi, India 110025
+
+# Build settings
+markdown: kramdown
+permalink: pretty
